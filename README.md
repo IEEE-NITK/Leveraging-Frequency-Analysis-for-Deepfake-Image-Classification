@@ -1,7 +1,6 @@
 <h1 align="center">
 DeepFake_Image_Recognition
 </h1>
-{BODY}
 The project entails two main objectives: to understand the entire architecture of the underlying neural network, and to implement web application for distinguish Deepfake images.
 
 ## INTRODUCTION 
@@ -11,7 +10,7 @@ The project utilizes a  frequency analysis technique DCT, to extract spectral fe
 
 
 ## TECHNOLOGIES USED
-[![Tech_Used](https://skills.thijs.gg/icons?i=py&theme=dark)](https://skills.thijs.gg) {HTml?}
+[![Tech_Used](https://skills.thijs.gg/icons?i=py,tensorflow&theme=dark)](https://skills.thijs.gg)
 
 ## ARCHITECTURE
 {ARCHITECTURE DESCRIPTION}
@@ -20,7 +19,6 @@ The project utilizes a  frequency analysis technique DCT, to extract spectral fe
 FFHQ-dataset has been used for real images. Fake images have been generated via the use of StyleGAN
 
 # Performance and Results
-{body}
 
 # References
 1. [Reference](https://arxiv.org/pdf/2003.08685.pdf)
