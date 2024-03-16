@@ -31,6 +31,12 @@ Style mixing in StyleGAN involves interpolating the latent code vectors (Z vecto
 FFHQ-dataset has been used for real images. Fake images have been generated via the use of StyleGAN
 
 # Performance and Results
+##DCT Performance
+![DCT](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/19b81c66-40f8-49ae-9f67-89186508abfd)
+##Standard Performance
+
+Accuracy of DCT of Image: 1.0
+Accuracy of Standard Image: 0.547 
 {performace}
 A large imporvement in detection of deepfake images in noticed when using a ridge classifier on the DCT of images compared to normal images. DCT is able to pickup on artifacts present in deepfake images.
 # References
