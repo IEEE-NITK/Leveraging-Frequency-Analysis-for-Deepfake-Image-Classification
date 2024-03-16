@@ -16,8 +16,12 @@ The project utilizes a  frequency analysis technique DCT, to extract spectral fe
 <img width="500" alt="stylegan_architecture" src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/5ccdfb90-148a-40ce-a8e0-74ad590f0d34">
 
 The AdaIN layer is normalizing the statistics of inputs and outputs to the convolution layer, and feeding the statistics of the style input. This way we can keep the information of x while transforming the distribution of the output of AdaIN to be similar to the style input.
-The synthesis network uses progressive gan structure as its backbone, where the network grows from low resolution to high resolution as training continues.
 
+![images_chrishongzzang_post_dcae114b-cde5-4763-9406-f8f14ac2193b_stylegan2](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/442b38eb-8817-442b-936b-ff25b6686938)
+
+The synthesis network uses progressive gan structure as its backbone, where the network grows from low resolution to high resolution as training continues.
+Noise is given as an input to each synthesis block in order to capture variational details and thus rendering the image to be seen more realistic. The input latent vector  characterizes important features such as gender, ethnicity and hairstyle. This leads to more controllability of the input style vector.
+Style mixing in StyleGAN involves interpolating the latent code vectors (Z vectors) of two input images at specific layers in the network. By blending the style vectors (W vectors) of these images, it allows for the synthesis of new images that exhibit a combination of visual attributes from both source images, effectively influencing the appearance of generated outputs at different hierarchical levels within the network.
 
 # Dataset
 FFHQ-dataset has been used for real images. Fake images have been generated via the use of StyleGAN
