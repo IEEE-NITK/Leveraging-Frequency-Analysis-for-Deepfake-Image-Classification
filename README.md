@@ -13,6 +13,7 @@ The project utilizes a  frequency analysis technique DCT, to extract spectral fe
 [![Tech_Used](https://skills.thijs.gg/icons?i=py,tensorflow&theme=dark)](https://skills.thijs.gg)
 
 ## ARCHITECTURE
+<img width="297" alt="stylegan_architecture" src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/5ccdfb90-148a-40ce-a8e0-74ad590f0d34">
 {ARCHITECTURE DESCRIPTION}
 
 # Dataset
