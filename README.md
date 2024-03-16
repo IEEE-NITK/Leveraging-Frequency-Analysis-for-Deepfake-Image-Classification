@@ -13,8 +13,11 @@ The project utilizes a  frequency analysis technique DCT, to extract spectral fe
 [![Tech_Used](https://skills.thijs.gg/icons?i=py,tensorflow&theme=dark)](https://skills.thijs.gg)
 
 ## ARCHITECTURE
-<img width="297" alt="stylegan_architecture" src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/5ccdfb90-148a-40ce-a8e0-74ad590f0d34">
-{ARCHITECTURE DESCRIPTION}
+<img width="500" alt="stylegan_architecture" src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/5ccdfb90-148a-40ce-a8e0-74ad590f0d34">
+
+The AdaIN layer is normalizing the statistics of inputs and outputs to the convolution layer, and feeding the statistics of the style input. This way we can keep the information of x while transforming the distribution of the output of AdaIN to be similar to the style input.
+The synthesis network uses progressive gan structure as its backbone, where the network grows from low resolution to high resolution as training continues.
+
 
 # Dataset
 FFHQ-dataset has been used for real images. Fake images have been generated via the use of StyleGAN
