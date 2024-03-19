@@ -34,6 +34,9 @@ We transform images into the frequency domain using the discrete cosine transfor
 
 ![image_999](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/53830790/b379fc36-59c9-41d7-ae37-5f4924a4232b)
 ![image_998](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/53830790/abb18fc7-9d33-4629-8e4c-7fe152f1030e)
+![image_995](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/53830790/67de681a-a86e-49f0-908b-c5986d287598)
+![image_994](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/53830790/d9d43235-eadb-4604-be3a-1b5441c69b72)
+![image_993](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/53830790/123924e0-d4a8-49ca-a205-2346fe9fa66f)
 
 
 # Dataset
