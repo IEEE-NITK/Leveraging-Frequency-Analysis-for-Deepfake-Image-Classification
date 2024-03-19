@@ -32,7 +32,9 @@ We transform images into the frequency domain using the discrete cosine transfor
 <br><br>
 
 
-<img width="600" alt="images_chrishongzzang_post_0c679ad1-86fd-4050-bc39-41b2968408ca_stylegan3" src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/1c8ff11a-0cf5-4146-b2fa-7bf3416cbdc2">
+![image_999](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/53830790/b379fc36-59c9-41d7-ae37-5f4924a4232b)
+![image_998](https://github.com/shahcharu/DeepFake_Image_Recognition/assets/53830790/abb18fc7-9d33-4629-8e4c-7fe152f1030e)
+
 
 # Dataset
 FFHQ-dataset has been used for real images. Fake images have been generated via the use of StyleGAN
