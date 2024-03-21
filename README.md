@@ -44,13 +44,13 @@ FFHQ-dataset has been used for real images. Fake images have been generated via 
 
 # Performance and Results
 ## DCT Performance
-<img src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/19b81c66-40f8-49ae-9f67-89186508abfd" alt="DCT" height="300"> #IMAGES TO BE UPDATED
+<img src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/19b81c66-40f8-49ae-9f67-89186508abfd" alt="DCT" height="300">
 
 ## Standard Performance
 <img src="https://github.com/shahcharu/DeepFake_Image_Recognition/assets/147295457/e399220f-6624-4c1c-a8fe-78df8da20823" alt ="PIXEL" height="300">
 <br><br>
 
-Accuracy of DCT of Image: 1.0 #VALUE TO BE UPDATED 
+Accuracy of DCT of Image: 1.0
 
 Accuracy of Standard Image: 0.547
 
