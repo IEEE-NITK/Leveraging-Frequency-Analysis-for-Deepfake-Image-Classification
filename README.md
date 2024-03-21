@@ -26,8 +26,6 @@ Noise is given as an input to each synthesis block in order to capture variation
 Style mixing in StyleGAN involves interpolating the latent code vectors (Z vectors) of two input images at specific layers in the network. By blending the style vectors (W vectors) of these images, it allows for the synthesis of new images that exhibit a combination of visual attributes from both source images, effectively influencing the appearance of generated outputs at different hierarchical levels within the network.
 <br><br>
 
-<br><br>
-
 We transform images into the frequency domain using the discrete cosine transform (DCT). The DCT expresses, much like the discrete Fourier transform (DFT), a finite sequence of data points as a sum of cosine functions oscillating at different frequencies. In practice, we compute the 2D-DCT as a product of two 1D-DCTs, i.e. for images we first compute a DCT along the columns and then a DCT along the rows. When we plot the DCT spectrum, we depict the DCT coefficients as a heatmap. To classify the images based on their frequency domain counterparts, we use a simple linear classifier. To demonstrate this, we perform a ridge regression on real and generated images, after applying a DCT. We also perform a ridge regression on the original images without any transformations for comparative analysis. We use a ridge classifier for the classification which is a modification of linear regression where regularization, specifically L2 regularization, is applied to the coefficients. 
 <br><br>
 
