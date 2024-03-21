@@ -1,5 +1,5 @@
 <h1 align="center">
-DeepFake Image Recognition
+Leveraging Frequency Analysis for Deepfake Image Classification
 </h1>
 The project entails two main objectives: to understand the entire architecture of the underlying neural network, and to implement web application for distinguish Deepfake images.
 
